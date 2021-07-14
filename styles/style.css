@@ -221,7 +221,9 @@ footer p{
        justify-content: center;
        flex-wrap: wrap;
    }
-   
+   .sponsor img{
+      padding-left:10% ;
+   }
    footer img{
        width: 60%;
        height: 60%;
