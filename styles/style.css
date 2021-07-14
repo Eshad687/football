@@ -223,15 +223,15 @@ footer p{
         
        
     
-   .news{
-       justify-content: center;
-       
+   article{
+      justify-content: center;
        flex-wrap: wrap;
+   }
+   .news{
        box-shadow: unset;
-       
    }
    .sponsor img{
-      padding-left:12% ;
+      padding-left:15% ;
    }
    footer img{
        width: 60%;
