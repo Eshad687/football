@@ -222,14 +222,20 @@ footer p{
        }
         
        
-    
-   article{
-       justify-content: center;
-       flex-wrap: wrap;
-   }
-   .sponsor img{
+    .container{
+        width: 100%;
+    }
+    .player, .news, .sponsor{
+        flex-direction: column;
+    align-items: center;
+    }
+   /* article{
+       justify-content: center; */
+       /* flex-wrap: wrap; */
+   /* } */
+   /* .sponsor img{
       padding-left:15% ;
-   }
+   } */
    footer img{
        width: 60%;
        height: 60%;
